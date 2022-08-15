@@ -4,7 +4,7 @@ import { SProyectosService } from 'src/app/service/s-proyectos.service';
 import { TokenService } from 'src/app/service/token.service';
 
 @Component({
-  selector: 'app-proyecto',
+  selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
   styleUrls: ['./proyectos.component.css']
 })

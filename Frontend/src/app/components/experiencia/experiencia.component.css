@@ -1,10 +1,20 @@
 .row{
-    padding: 25px;
+    padding: 20px;
+    background-color:  rgb(0, 28, 58);
 
 }
 div{
-    background-color: rgb(59, 59, 159);
+    background-color: rgb(0, 28, 58);
+    text-align: left;
+    color: rgba(2, 216, 253);
 }
-h2,h3,h4{
-    display: inline;
+#color{
+    color: rgba(2, 216, 253);
+}
+#colorC{
+    color: rgba(207, 91, 94);
+}
+#estilo{
+    font-family: 'Source Code Pro', monospace;
+
 }
