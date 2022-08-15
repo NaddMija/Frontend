@@ -1,14 +1,14 @@
-
 <div class="container-fluid">
     <div class="row">
         <h6 class="text-center">Hard & Soft</h6>
-        <h2 class="text-center fw-bold text-uppercase mb-4">Skills</h2>
+        <h2 class="text-center fw-bold text-uppercase mb-4" id="color">Skills</h2>
 
 
         <div class="col-12 text-center">
             <button type="button" class="btn btn-dark add-button" routerLink="/nuevaskill" *ngIf="isLogged"><i class="bi bi-plus-lg"></i>
             </button>
         </div>
+        <br><br>
     </div>
 
     <div class="row" >  
@@ -16,11 +16,13 @@
             <div class="container">            
                     <div class="row d-flex align-items-end">
                         <div class="col-12 col-md-10 name-skill">
-                            <h5 class="fw-bold">{{Skills.nombreS}}</h5>
+                            <h5 id="color">{{Skills.nombreS}}</h5>
                             <div class="progress">                                
                                 <div class="progress-bar" style="width:{{Skills.porcentajeS}}%" role="progressbar">
-                                    <h5>{{Skills.porcentajeS}}%</h5>
+                                    <h6>{{Skills.porcentajeS}}%</h6>
+                                    
                                 </div>
+                             
                             </div>
                         </div>
                         <div class="col-12 col-md-2 buttons-col text-end mt-2 mt-md-auto" *ngIf="isLogged">
@@ -31,10 +33,13 @@
                                 <i class="bi bi-trash-fill"></i>
                             </button>
                         </div> 
+                        <br><br>
                     </div>
             </div>
         </div>
+    <br><br><br><br>
     </div>
+
 
 
 
