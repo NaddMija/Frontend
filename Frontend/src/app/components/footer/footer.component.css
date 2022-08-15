@@ -1,8 +1,8 @@
 .row{
-    background: rgb(0, 28, 58);
+    background-color:  rgb(35, 38, 134);
 }
 footer{
-    color: rgba(2, 216, 253);
+    color: rgb(15, 245, 168);
     font-size: 14px;
     display: flex;
     flex-direction: column;

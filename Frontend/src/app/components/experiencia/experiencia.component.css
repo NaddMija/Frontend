@@ -1,15 +1,15 @@
 .row{
     padding: 20px;
-    background-color:  rgb(0, 28, 58);
+    background-color:  rgb(35, 38, 134);
 
 }
 div{
-    background-color: rgb(0, 28, 58);
+    background-color:  rgb(35, 38, 134);
     text-align: left;
-    color: rgba(2, 216, 253);
+    color: rgb(15, 245, 168);
 }
 #color{
-    color: rgba(2, 216, 253);
+    color: #011012;
 }
 #colorC{
     color: rgba(207, 91, 94);

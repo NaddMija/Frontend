@@ -1,10 +1,12 @@
 .row{
     padding: 20px;
+    background-color:  rgb(35, 38, 134);
+
 }
 div{
-    background-color: rgb(59, 59, 159);
+    background-color: rgb(35,38,134);
     text-align: center;
-    
+    color: rgb(15, 245, 168);
 }
 /*estilo de la foto de perfil*/
 @media(min-width:576px){
@@ -35,5 +37,9 @@ div{
     font-size:large;
     margin-top: 40%;
     margin-left: 10px;
+    color: #011012;
+}
+#colorC{
+    color: rgba(207, 91, 94);
 }
 
